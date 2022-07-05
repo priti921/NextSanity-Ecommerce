@@ -49,6 +49,13 @@ a {
     margin-top: 4px;
 }
 
+.hero-banner-container h1{
+    color: white;
+    font-size: 10em;
+    margin-left: -20px;
+    text-transform: uppercase;
+}
+
 .hero-banner-image {
     position: absolute;
     top: 0%;
@@ -57,6 +64,7 @@ a {
     height: 450px;
 }
 
+/* banner description */
 .desc {
     position: absolute;
     right: 10%;
@@ -79,4 +87,61 @@ a {
     font-weight: 700;
     font-size: 16px;
     align-items: flex-end;
+}
+
+/* products */
+
+.products-heading {
+    text-align: center;
+    margin: 40px 0px;
+    color: #324d67;
+}
+
+.products-heading h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.products-heading p{
+    font-size: 16px;
+    font-weight: 200;
+}
+
+/* product-container */
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+.product-card{
+    cursor: pointer;
+    transform: scale(1,1);
+    transition: transform 0.5s ease;
+    color: #324d67;
+}
+
+.product-card:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.product-image {
+    border-radius: 15px;
+    background-color: #ebebeb;
+    transform: scale(1,1);
+    transition: transform 0.5s ease;
+}
+
+.product-name {
+    font-weight: 500;
+}
+
+.product-price {
+    font-weight: 500;
+    margin-top: 6px;
+    color: black;
 }
