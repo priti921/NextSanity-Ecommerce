@@ -210,3 +210,15 @@ a {
     font-weight: 300;
 }
 
+/* layout */
+
+.main-container {
+    min-width: 1400px;
+    margin: auto;
+    width: 100%;
+}
+
+.layout {
+    padding: 10px;
+}
+
